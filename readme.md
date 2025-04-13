@@ -20,6 +20,8 @@ Hem kısa hem de uzun metinleri destekler. Uzun metinlerde Web Worker kullanarak
 ---
 
 ## 🧱 Proje Yapısı
+
+```
 multilingual-html/
 │
 ├── public/
@@ -38,6 +40,7 @@ multilingual-html/
 ├── .env                          # Google API key burada tutulur
 ├── cache.json                    # Çeviri önbelleği (hash bazlı)
 └── main.py                       # FastAPI backend (çeviri & cache)
+```
 
 ---
 
@@ -55,6 +58,6 @@ multilingual-html/
 
 4.	index.html dosyasını Live Server ile çalıştır (VS Code’da sağ tık → “Open with Live Server”)
 
+---
 
-👨‍💻 Geliştirici
-    Talha Eroğlu
+👨‍💻 Geliştirici:Talha Eroğlu
